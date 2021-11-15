@@ -5,7 +5,7 @@ const QCProvider: React.FC = ({ children }) => {
   const queryClient = new QueryClient({
     defaultOptions: {
       queries: {
-        // turn off retries (by default 3) to don't timeout tests
+        // Turn off retries (by default 3) to don't timeout tests
         retry: false,
       },
     },
